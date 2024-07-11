@@ -1,6 +1,6 @@
 resource "aws_instance" "deo"{
     ami= local.ami
-    instance_type="t2.micro"
+    instance_type= var.itype
     
 }
 locals{

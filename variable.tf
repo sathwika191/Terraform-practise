@@ -1,0 +1,4 @@
+variable "itype"{
+    type=string
+   
+}
